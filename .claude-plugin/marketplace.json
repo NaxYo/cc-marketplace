@@ -1,17 +1,22 @@
 {
   "name": "cc-marketplace",
-  "description": "Community plugins for Claude Code",
-  "version": "1.0.0",
+  "metadata": {
+    "description": "Community plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "NaxYo",
+    "email": "nax@nax.dev"
+  },
   "plugins": [
     {
       "name": "charon",
       "description": "Event-driven workflows - await external events, schedule tasks, chain workflows",
-      "version": "1.0.0",
       "source": {
-        "type": "git",
-        "url": "https://github.com/NaxYo/charon",
-        "path": "plugin"
-      }
+        "source": "url",
+        "url": "https://github.com/NaxYo/charon.git"
+      },
+      "category": "workflows"
     }
   ]
 }
