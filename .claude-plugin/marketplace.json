@@ -14,7 +14,7 @@
       "description": "Event-driven workflows - await external events, schedule tasks, chain workflows",
       "source": {
         "source": "url",
-        "url": "https://github.com/NaxYo/charon.git"
+        "url": "https://github.com/NaxYo/charon-plugin.git"
       },
       "category": "workflows"
     }
